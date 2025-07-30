@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação Diária - Meu Mantra Pessoal</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .application-hero {
+            height: 60vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .application-content {
+            padding: 80px 0;
+        }
+        .routine-section {
+            background: #f8f9fa;
+            padding: 60px 0;
+            margin: 40px 0;
+        }
+        .time-block {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .time-block h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .practice-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu de Navegação Fixo -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>✨ Meu Mantra</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="../index.html" class="nav-link">Início</a>
+                <a href="../index.html#prioridades" class="nav-link">Prioridades</a>
+                <a href="../index.html#qualidades" class="nav-link">Qualidades</a>
+                <a href="../index.html#resultados" class="nav-link">Resultados</a>
+                <a href="aplicacao_diaria.html" class="nav-link active">Aplicação Diária</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero da Aplicação -->
+    <section class="application-hero">
+        <div class="container">
+            <div style="font-size: 4rem; margin-bottom: 30px;">
+                <i class="fas fa-calendar-day"></i>
+            </div>
+            <h1 style="font-size: 4rem; margin-bottom: 20px;">Aplicação Diária</h1>
+            <p style="font-size: 1.3rem; opacity: 0.9;">Transforme seu mantra em uma prática viva</p>
+        </div>
+    </section>
+
+    <!-- Conteúdo da Aplicação -->
+    <section class="application-content">
+        <div class="container">
+            <a href="../index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Voltar ao Início
+            </a>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 style="margin-bottom: 30px; color: #2d3748; text-align: center;">Como Integrar seu Mantra na Vida Diária</h2>
+                
+                <p style="margin-bottom: 25px; font-size: 1.1rem; line-height: 1.8; color: #4a5568; text-align: center;">
+                    Seu mantra não é apenas uma lista de palavras bonitas - é um guia prático para viver com mais propósito, clareza e autenticidade. Aqui você encontrará maneiras concretas de incorporar cada elemento do seu mantra em sua rotina diária.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rotina Diária -->
+    <section class="routine-section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px; color: #2d3748;">Rotina Diária com o Mantra</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="time-block">
+                    <h3><i class="fas fa-sun"></i> Manhã (6:00 - 9:00)</h3>
+                    <p><strong>Confiança:</strong> Comece o dia com uma afirmação positiva. Olhe-se no espelho e declare: "Eu confio na minha capacidade de criar um dia extraordinário."</p>
+                    <p><strong>Serenidade:</strong> Pratique 5 minutos de respiração consciente ou meditação para estabelecer um estado de calma interior.</p>
+                    <p><strong>Crescimento:</strong> Defina uma intenção de aprendizado para o dia. Pergunte-se: "Como posso crescer hoje?"</p>
+                </div>
+
+                <div class="time-block">
+                    <h3><i class="fas fa-briefcase"></i> Trabalho/Atividades (9:00 - 17:00)</h3>
+                    <p><strong>Conexão:</strong> Faça pelo menos uma interação genuína e significativa com alguém. Pratique escuta ativa.</p>
+                    <p><strong>Integridade:</strong> Em cada decisão, pergunte-se: "Isso está alinhado com meus valores?"</p>
+                    <p><strong>Empatia:</strong> Antes de reagir a situações difíceis, tente compreender a perspectiva da outra pessoa.</p>
+                    <p><strong>Coragem:</strong> Identifique uma ação que você tem evitado por medo e dê um pequeno passo em direção a ela.</p>
+                </div>
+
+                <div class="time-block">
+                    <h3><i class="fas fa-home"></i> Tarde/Noite (17:00 - 22:00)</h3>
+                    <p><strong>Abundância:</strong> Pratique gratidão listando 3 coisas pelas quais você é grato hoje.</p>
+                    <p><strong>Presença:</strong> Dedique tempo de qualidade com família/amigos sem distrações digitais.</p>
+                    <p><strong>Vitalidade:</strong> Faça uma atividade que energize seu corpo e mente (exercício, caminhada, dança).</p>
+                </div>
+
+                <div class="time-block">
+                    <h3><i class="fas fa-moon"></i> Noite (22:00 - 23:00)</h3>
+                    <p><strong>Evolução:</strong> Reflita sobre o dia: "Como evoluí hoje? O que aprendi?"</p>
+                    <p><strong>Proteção:</strong> Visualize-se cercado de luz protetora e energia positiva.</p>
+                    <p><strong>Plenitude:</strong> Termine o dia com um sentimento de completude, reconhecendo seus esforços.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Práticas Específicas -->
+    <section class="application-content">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px; color: #2d3748;">Práticas Específicas</h2>
+            
+            <div class="practice-grid">
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-heart"></i> Prática da Confiança
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Mantenha um "diário de vitórias" - anote sucessos diários</li>
+                        <li>Pratique postura corporal confiante</li>
+                        <li>Substitua "eu não consigo" por "eu estou aprendendo"</li>
+                        <li>Celebre pequenos progressos</li>
+                    </ul>
+                </div>
+
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-leaf"></i> Prática da Serenidade
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Técnica 4-7-8: inspire por 4, segure por 7, expire por 8</li>
+                        <li>Pause antes de reagir em situações estressantes</li>
+                        <li>Crie um "espaço sagrado" em casa para momentos de paz</li>
+                        <li>Pratique o desapego de resultados</li>
+                    </ul>
+                </div>
+
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-seedling"></i> Prática do Crescimento
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Leia ou estude algo novo por 15 minutos diários</li>
+                        <li>Saia da zona de conforto uma vez por semana</li>
+                        <li>Peça feedback construtivo regularmente</li>
+                        <li>Transforme erros em lições aprendidas</li>
+                    </ul>
+                </div>
+
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-link"></i> Prática da Conexão
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Faça uma ligação ou envie mensagem para alguém querido</li>
+                        <li>Pratique escuta ativa sem julgar</li>
+                        <li>Participe de atividades comunitárias</li>
+                        <li>Expresse gratidão e apreço genuínos</li>
+                    </ul>
+                </div>
+
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-gem"></i> Prática da Abundância
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Mantenha um diário de gratidão</li>
+                        <li>Compartilhe conhecimento e recursos</li>
+                        <li>Visualize seus objetivos como já realizados</li>
+                        <li>Pratique generosidade em pequenos gestos</li>
+                    </ul>
+                </div>
+
+                <div class="practice-card">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">
+                        <i class="fas fa-star"></i> Prática da Plenitude
+                    </h3>
+                    <ul style="line-height: 1.8;">
+                        <li>Termine tarefas completamente antes de iniciar outras</li>
+                        <li>Celebre conquistas, por menores que sejam</li>
+                        <li>Pratique mindfulness nas atividades cotidianas</li>
+                        <li>Cultive um senso de propósito em tudo que faz</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dicas Finais -->
+    <section style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 80px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 30px;">Dicas para o Sucesso</h2>
+            <div style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8;">
+                <p style="margin-bottom: 20px;">
+                    <strong>Comece pequeno:</strong> Não tente implementar tudo de uma vez. Escolha 2-3 práticas para começar.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    <strong>Seja consistente:</strong> É melhor praticar 5 minutos todos os dias do que 1 hora uma vez por semana.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    <strong>Adapte às suas necessidades:</strong> Modifique as práticas para que se encaixem em sua rotina e personalidade.
+                </p>
+                <p>
+                    <strong>Seja paciente consigo mesmo:</strong> A transformação é um processo. Celebre o progresso, não a perfeição.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Meu Mantra Pessoal. Criado com propósito e intenção.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+
